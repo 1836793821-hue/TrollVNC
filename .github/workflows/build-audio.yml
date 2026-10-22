@@ -5,7 +5,7 @@ env:
   HOMEBREW_NO_AUTO_UPDATE: 1
 jobs:
   build:
-    runs-on: macos-15
+    runs-on: macos-13
     steps:
       - uses: actions/checkout@v4
       - name: deps
